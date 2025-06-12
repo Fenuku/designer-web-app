@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
+const indexRoutes = require('./designer-app/routes/index');
 
 // View engine setup
 app.set('view engine', 'ejs');
