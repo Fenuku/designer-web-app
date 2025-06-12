@@ -12,6 +12,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 const indexRoutes = require('./routes/index');
+
 app.use('/', indexRoutes);
 
 // Start server
